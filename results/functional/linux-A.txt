@@ -1,0 +1,4 @@
+config=A cpu=svnapot=true,svnapot16k=false,svnapot32k=false
+workload=16KiB size=16KiB address=0x7ff652b04000 bytes=268435456 checksum=8355840 none
+workload=32KiB size=32KiB address=0x7ff987270000 bytes=268435456 checksum=8355840 none
+workload=64KiB size=64KiB address=0x7fefdc0f0000 bytes=268435456 checksum=8355840 bits=4 count=1024

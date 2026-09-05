@@ -1,0 +1,24 @@
+# Licensed workload and machine-image artifacts must remain private.
+*.img
+*.qcow2
+*.raw
+*.iso
+*.cpio
+*.cpio.gz
+*.jar
+*.tar
+*.tar.gz
+*.elf
+*.bin
+
+# Raw simulator output may contain local paths and licensed workload details.
+run.log
+stats.txt
+config.ini
+config.json
+*.terminal
+*.dtb
+*.dts
+
+.DS_Store
+__pycache__/

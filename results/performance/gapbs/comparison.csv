@@ -1,0 +1,5 @@
+workload,comparison,purpose,tick_gain_pct,dtlb_miss_reduction_pct,itlb_miss_reduction_pct
+gapbs-pr,B_vs_A,add_16k,-0.005168722522286513,0.0,0.0
+gapbs-pr,C_vs_A,add_32k,-0.0034010902121397826,0.0,0.0
+gapbs-pr,D_vs_B,add_32k_with_16k,0.00623499525551035,0.0,0.0
+gapbs-pr,D_vs_A,add_16k_and_32k,0.0010665950028278717,0.0,0.0

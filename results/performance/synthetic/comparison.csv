@@ -1,0 +1,9 @@
+comparison,workload,purpose,tick_gain_pct,tlb_miss_reduction_pct
+A_vs_E,data64,add_64k,2.872334684,93.743563140
+A_vs_E,code64,add_64k,2.743554932,93.748569510
+B_vs_A,data16,add_16k,1.762316404,74.995422643
+B_vs_A,code16,add_16k,1.600124378,74.998855608
+C_vs_A,data32,add_32k,1.799652188,87.492657324
+C_vs_A,code32,add_32k,1.908392142,87.498664876
+D_vs_B,data32,add_32k_with_16k,0.096112936,49.981696156
+D_vs_B,code32,add_32k_with_16k,0.222380315,49.996948428

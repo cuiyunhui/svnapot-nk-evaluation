@@ -1,0 +1,4 @@
+config=B PASS size=16KiB address=0x7ffeeea48000 bytes=67108864
+config=C PASS size=32KiB address=0x7ffee2ed8000 bytes=67108864
+config=D PASS size=16KiB address=0x7ffebc79c000 bytes=67108864
+config=D PASS size=32KiB address=0x7fefe0ee8000 bytes=67108864
