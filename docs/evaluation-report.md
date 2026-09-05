@@ -33,6 +33,24 @@ ACT4 tests are generated for four cases: 16 KiB supported, 16 KiB unsupported,
 32 KiB supported, and 32 KiB unsupported. Required and forbidden extension
 metadata selects the correct two tests for each A-D configuration.
 
+## Capability configurations
+
+| Configuration | 16 KiB | 32 KiB | 64 KiB | Purpose |
+|---|---:|---:|---:|---|
+| E | No | No | No | 4 KiB-only synthetic baseline |
+| A | No | No | Yes | Existing Svnapot baseline |
+| B | Yes | No | Yes | Add 16 KiB to A |
+| C | No | Yes | Yes | Add 32 KiB to A |
+| D | Yes | Yes | Yes | Add 32 KiB to B, or both sizes to A |
+
+The primary comparisons are:
+
+- A versus E: existing 64 KiB Svnapot benefit over 4 KiB pages;
+- B versus A: incremental benefit of 16 KiB when 64 KiB is available;
+- C versus A: standalone benefit of 32 KiB when 64 KiB is available; and
+- D versus B: incremental benefit of 32 KiB when both 16 KiB and 64 KiB are
+  already available.
+
 ## gem5 methodology
 
 The measurements use a full-system RISC-V Linux model with:
